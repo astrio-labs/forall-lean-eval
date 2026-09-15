@@ -1,0 +1,17 @@
+.DS_Store
+._*
+.lake/
+__pycache__/
+*.pyc
+*.olean
+*.ilean
+*.trace
+*.log
+*.jsonl
+.env
+.env.*
+*.pem
+*.key
+*.tgz
+*.tar.gz
+*.zip

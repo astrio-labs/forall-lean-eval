@@ -1,0 +1,14 @@
+Forall LeanEval
+Copyright 2026 Astrio Labs
+
+This repository includes benchmark material from leanprover/lean-eval.
+Copyright 2026 Lean FRO, LLC
+Licensed under the Apache License, Version 2.0.
+
+The Submission.lean files replace upstream starter placeholders with the
+accepted Forall (Astrio) proofs. Files under Submission/ provide the accepted
+proof development. The proof files are unchanged from the original accepted
+submission commit c1a049be4d9d780b73b1a2552ebb764e67497f49.
+
+Benchmark statements, support files, and dependency locks retain their original
+attribution. See third-party/README.md for their source revisions.
