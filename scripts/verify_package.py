@@ -72,7 +72,7 @@ def verify(root: Path) -> None:
                 "Submission ID mismatch")
         require(receipt["result_id"] == record["result_id"], "Result ID mismatch")
         require(receipt["accepted_at"] == record["accepted_at"], "Acceptance time mismatch")
-        workspace = root / "generated" / problem
+        workspace = root / "proofs" / problem
         config = tomllib.loads((workspace / "lakefile.toml").read_text())
         require(config["name"] == problem, f"Wrong Lake name: {problem}")
         require(record["problem_group"] == "software-verification", "Wrong group")
@@ -99,7 +99,7 @@ def verify(root: Path) -> None:
         base = Path(directory)
         if base == root and ".git" in dirs:
             dirs.remove(".git")
-        if base in (root / "generated" / problem for problem in EXPECTED_PROBLEMS):
+        if base in (root / "proofs" / problem for problem in EXPECTED_PROBLEMS):
             if ".lake" in dirs:
                 dirs.remove(".lake")
         if "__pycache__" in dirs:

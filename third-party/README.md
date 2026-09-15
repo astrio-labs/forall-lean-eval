@@ -1,7 +1,7 @@
 # Upstream material
 
-The fixed workspace files under `generated/` are copied without modification
-from `leanprover/lean-eval` commit
+The fixed workspace files under `proofs/` are copied without modification
+from the upstream `generated/` directory in `leanprover/lean-eval` commit
 `242d5b0232f40bda70c54c6648fec64348c62c8b`:
 
 - `Challenge.lean`, `ChallengeDeps.lean`, `Solution.lean`, `WorkspaceTest.lean`;
