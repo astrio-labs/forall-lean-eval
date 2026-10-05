@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the FORALL-LEAN-AGENT paper when using these proofs."
+title: "Forall LeanEval accepted proofs"
+type: software
+authors:
+  - name: "Astrio, Inc."
+repository-code: "https://github.com/astrio-labs/forall-lean-eval"
+url: "https://github.com/astrio-labs/forall-lean-eval"
+license: Apache-2.0
+preferred-citation:
+  type: article
+  title: "FORALL-LEAN-AGENT for Auditable Reasoning in Formal Mathematics and Software Verification"
+  authors:
+    - family-names: Lwin
+      given-names: Naing Oo
+  year: 2026
+  doi: "10.48550/arXiv.2610.00885"
+  url: "https://arxiv.org/abs/2610.00885"

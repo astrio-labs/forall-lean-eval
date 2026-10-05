@@ -18,7 +18,7 @@ SUPPORT_FILES = {
     "lake-manifest.json",
 }
 ROOT_FILES = {
-    ".gitignore", "README.md", "PROVENANCE.md", "LICENSE", "NOTICE", "verification.json",
+    ".gitignore", "README.md", "CITATION.cff", "PROVENANCE.md", "LICENSE", "NOTICE", "verification.json",
     "third-party/README.md", "third-party/lean-eval-LICENSE",
     "third-party/lean-eval-SECURITY.md", "scripts/verify_package.py",
     "accepted-results.json",

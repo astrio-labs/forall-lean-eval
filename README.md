@@ -1,5 +1,8 @@
 # Forall LeanEval
 
+[![arXiv](https://img.shields.io/badge/arXiv-2610.00885-b31b1b.svg)](https://arxiv.org/abs/2610.00885)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+
 Accepted Lean proofs for the [LeanEval software-verification benchmark](https://lean-lang.org/eval/software-verification/), produced with Forall-Lean-Agent from [Astrio Labs](https://github.com/astrio-labs).
 
 Both problems were accepted on September 7, 2026 under the leaderboard name **Forall (Astrio)**, using GPT-6 Astra. The proof files in this repository match the exact accepted submission commit.
@@ -57,6 +60,25 @@ The original placeholders in `Challenge.lean` define benchmark obligations. Comp
 The original accepted source commit is `c1a049be4d9d780b73b1a2552ebb764e67497f49`. Both official results use statement revision 1 and benchmark commit `6b4b87b672f5301f24983a12fda65dac608453ce`.
 
 The packaged benchmark support files and dependency lockfiles match those at the official benchmark commit. [verification.json](verification.json) records the proof digests, original local checks, and official acceptance identifiers. The saved result snapshot retains the original submission metadata, including its private visibility at submission time.
+
+## Citation
+
+If you use these proofs or Forall-Lean-Agent, please cite the [FORALL paper](https://arxiv.org/abs/2610.00885):
+
+```bibtex
+@misc{lwin2026forallleanagentauditablereasoningformal,
+  title={FORALL-LEAN-AGENT for Auditable Reasoning in Formal Mathematics and Software Verification},
+  author={Naing Oo Lwin},
+  year={2026},
+  eprint={2610.00885},
+  archivePrefix={arXiv},
+  primaryClass={cs.SE},
+  doi={10.48550/arXiv.2610.00885},
+  url={https://arxiv.org/abs/2610.00885}
+}
+```
+
+Machine-readable citation metadata is provided in [CITATION.cff](CITATION.cff).
 
 ## License and attribution
 
